@@ -6,6 +6,4 @@ function _vsendcollectdata(url, data, onerror) {
         }
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send(JSON.stringify(data));
-
-   return xhr;
 }
